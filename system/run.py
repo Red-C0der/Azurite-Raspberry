@@ -120,9 +120,9 @@ class EchoServer(asyncore.dispatcher):
         print "Created socket"
         self.set_reuse_addr()
         print "set_reuse_addr"
-        print "Host: "+host
-        print "Port: "+port
-        self.bind((host, port))
+        print "Host: "+myip
+        print "Port: "+socketport
+        self.bind((myip, socketport))
         print "bound socket"
         self.listen(1)
         print "listening"
@@ -147,7 +147,7 @@ class EchoServer(asyncore.dispatcher):
 try:
     output.statePrint("", "Starting socket server with ip and port! ["+str(myip)+"] & ["+str(socketport)+"]", debug=debug)
     logger.write("i", "Starting socket server with ip and port! ["+str(myip)+"] & ["+str(socketport)+"]", lloc=lloc)
-    server = EchoServer(myip, socketport)
+    server = EchoServer()
     output.statePrint("ok", "Successfully started socket server with ip and port! ["+str(myip)+"] & ["+str(socketport)+"]", debug=debug)
     logger.write("i", "Successfully started socket server with ip and port! ["+str(myip)+"] & ["+str(socketport)+"]", lloc=lloc)
     output.statePrint("info", "Please connect to ip ["+str(myip)+"] from the Main Azurite Machine!", debug=debug)
