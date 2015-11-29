@@ -9,8 +9,8 @@
   |   Project-Name: Azurite                                                       |
   |   Version: 0.0.2                                                              |
   |   Development-State: Alpha                                                    |
-  |   Project-ID: 0776                                                            |
-  |   GitHub-Page: http://red-c0der.github.io/Azurite                             |
+  |   Project-ID: 0777                                                            |
+  |   GitHub-Page: http://red-c0der.github.io/Azurite-Raspberry                   |
   |   License: /LICENSE.txt                                                       |
   |                                                                               |
   |                                                                               |
@@ -21,7 +21,5 @@
    \=============================================================================/
 ```
 
-# Azurite
-A personal assistant and more!
-
-TODO: FInish Readme
+# Azurite-Raspberry
+Extention to the Azurite Project!

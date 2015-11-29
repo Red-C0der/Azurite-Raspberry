@@ -1,0 +1,115 @@
+29/11/2015 05:32:47 | INFO: File: run.py | Message: Starting Boot!
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Successfully imported logger and output !], debug=[1]!
+29/11/2015 05:32:47 | INFO: File: run.py | Message: Successfully imported logger and output !
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[], message=[Importing socket], debug=[1]!
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Successfully imported socket !], debug=[1]!
+29/11/2015 05:32:47 | INFO: File: run.py | Message: Successfully imported socket !
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[], message=[Importing asyncore], debug=[1]!
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Successfully imported asyncore !], debug=[1]!
+29/11/2015 05:32:47 | INFO: File: run.py | Message: Successfully imported asyncore !
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[], message=[Importing time], debug=[1]!
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Successfully imported time !], debug=[1]!
+29/11/2015 05:32:47 | INFO: File: run.py | Message: Successfully imported time !
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[], message=[Importing cryptographer as crypto], debug=[1]!
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Successfully imported cryptographer as crypto !], debug=[1]!
+29/11/2015 05:32:47 | INFO: File: run.py | Message: Successfully imported cryptographer as crypto !
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[], message=[Importing configparser as cfg], debug=[1]!
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Successfully imported configparser as cfg !], debug=[1]!
+29/11/2015 05:32:47 | INFO: File: run.py | Message: Successfully imported configparser as cfg !
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[], message=[Importing sys], debug=[1]!
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Successfully imported sys !], debug=[1]!
+29/11/2015 05:32:47 | INFO: File: run.py | Message: Successfully imported sys !
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[], message=[Getting Machine IP Address, Hostname, and socket-networking port!], debug=[1]!
+29/11/2015 05:32:47 | INFO: File: run.py | Message: Getting Machine IP Address, Hostname, TrustedHosts and ports!
+29/11/2015 05:32:47 | INFO: File: configparser.py | Function: getattrib | Message: Trying to get value of attribute from configfile with arguments: path=[network/myhostname], attrib_name=[val], filename=[sys.xml], filepath=[../settings/], debug=[1]!
+29/11/2015 05:32:47 | DEBUG: File: configparser.py | Function: getattrib | Message: ElementTree parsed filename=[../settings/sys.xml]!
+29/11/2015 05:32:47 | DEBUG: File: configparser.py | Function: getattrib | Message: ElementTree got tree-root!
+29/11/2015 05:32:47 | DEBUG: File: configparser.py | Function: getattrib | Message: Found attrib=[val]! Returning value [Azurite.Raspberry]!
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Got hostname! [Azurite.Raspberry]], debug=[1]!
+29/11/2015 05:32:47 | INFO: File: run.py | Message: Got hostname! [Azurite.Raspberry]
+29/11/2015 05:32:47 | INFO: File: configparser.py | Function: getattrib | Message: Trying to get value of attribute from configfile with arguments: path=[network/ips/myhost], attrib_name=[val], filename=[sys.xml], filepath=[../settings/], debug=[1]!
+29/11/2015 05:32:47 | DEBUG: File: configparser.py | Function: getattrib | Message: ElementTree parsed filename=[../settings/sys.xml]!
+29/11/2015 05:32:47 | DEBUG: File: configparser.py | Function: getattrib | Message: ElementTree got tree-root!
+29/11/2015 05:32:47 | DEBUG: File: configparser.py | Function: getattrib | Message: Found attrib=[val]! Returning value [172.16.16.11]!
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Got myip! [172.16.16.11]], debug=[1]!
+29/11/2015 05:32:47 | INFO: File: run.py | Message: Got myip! [172.16.16.11]
+29/11/2015 05:32:47 | INFO: File: configparser.py | Function: getelementlist | Message: Trying to get list of elements from configfile with arguments: path=[network/ports/port], filename=[sys.xml], filepath=[../settings/], debug=[1]!
+29/11/2015 05:32:47 | DEBUG: File: configparser.py | Function: getelementlist | Message: ElementTree parsed filename=[../settings/sys.xml]!
+29/11/2015 05:32:47 | DEBUG: File: configparser.py | Function: getelementlist | Message: ElementTree got tree-root!
+29/11/2015 05:32:47 | DEBUG: File: configparser.py | Function: getelementlist | Message: Created elems list!
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Got ports!], debug=[1]!
+29/11/2015 05:32:47 | INFO: File: run.py | Message: Got ports!
+29/11/2015 05:32:47 | INFO: File: configparser.py | Function: getelementlist | Message: Trying to get list of elements from configfile with arguments: path=[trustedhosts/host], filename=[sys.xml], filepath=[../settings/], debug=[1]!
+29/11/2015 05:32:47 | DEBUG: File: configparser.py | Function: getelementlist | Message: ElementTree parsed filename=[../settings/sys.xml]!
+29/11/2015 05:32:47 | DEBUG: File: configparser.py | Function: getelementlist | Message: ElementTree got tree-root!
+29/11/2015 05:32:47 | DEBUG: File: configparser.py | Function: getelementlist | Message: Created elems list!
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Got Trustedhosts!], debug=[1]!
+29/11/2015 05:32:47 | INFO: File: run.py | Message: Got Trustedhosts!
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[], message=[Getting socket-networking port from ports !], debug=[1]!
+29/11/2015 05:32:47 | INFO: File: run.py | Message: Getting socket-networking port from ports !
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Got socket-networking port! [44557]], debug=[1]!
+29/11/2015 05:32:47 | INFO: File: run.py | Message: Got socket-networking port! [44557]
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[], message=[Doing some class creation!], debug=[1]!
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[error], message=[Some error in block 3!], debug=[1]!
+29/11/2015 05:32:47 | ERROR: File: run.py | Message: Some error occoured in block 3!
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[], message=[Starting socket server with ip and port! [172.16.16.11] & [44557]], debug=[1]!
+29/11/2015 05:32:47 | INFO: File: run.py | Message: Starting socket server with ip and port! [172.16.16.11] & [44557]
+29/11/2015 05:32:47 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[error], message=[Some error while starting socket server!], debug=[1]!
+29/11/2015 05:32:47 | ERROR: File: run.py | Message: Some error while starting socket server!
+29/11/2015 05:33:01 | INFO: File: run.py | Message: Starting Boot!
+29/11/2015 05:33:01 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Successfully imported logger and output !], debug=[1]!
+29/11/2015 05:33:02 | INFO: File: run.py | Message: Successfully imported logger and output !
+29/11/2015 05:33:02 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[], message=[Importing socket], debug=[1]!
+29/11/2015 05:33:02 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Successfully imported socket !], debug=[1]!
+29/11/2015 05:33:02 | INFO: File: run.py | Message: Successfully imported socket !
+29/11/2015 05:33:02 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[], message=[Importing asyncore], debug=[1]!
+29/11/2015 05:33:02 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Successfully imported asyncore !], debug=[1]!
+29/11/2015 05:33:02 | INFO: File: run.py | Message: Successfully imported asyncore !
+29/11/2015 05:33:02 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[], message=[Importing time], debug=[1]!
+29/11/2015 05:33:02 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Successfully imported time !], debug=[1]!
+29/11/2015 05:33:02 | INFO: File: run.py | Message: Successfully imported time !
+29/11/2015 05:33:02 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[], message=[Importing cryptographer as crypto], debug=[1]!
+29/11/2015 05:33:02 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Successfully imported cryptographer as crypto !], debug=[1]!
+29/11/2015 05:33:02 | INFO: File: run.py | Message: Successfully imported cryptographer as crypto !
+29/11/2015 05:33:02 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[], message=[Importing configparser as cfg], debug=[1]!
+29/11/2015 05:33:02 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Successfully imported configparser as cfg !], debug=[1]!
+29/11/2015 05:33:02 | INFO: File: run.py | Message: Successfully imported configparser as cfg !
+29/11/2015 05:33:02 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[], message=[Importing sys], debug=[1]!
+29/11/2015 05:33:02 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Successfully imported sys !], debug=[1]!
+29/11/2015 05:33:02 | INFO: File: run.py | Message: Successfully imported sys !
+29/11/2015 05:33:02 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[], message=[Getting Machine IP Address, Hostname, and socket-networking port!], debug=[1]!
+29/11/2015 05:33:02 | INFO: File: run.py | Message: Getting Machine IP Address, Hostname, TrustedHosts and ports!
+29/11/2015 05:33:02 | INFO: File: configparser.py | Function: getattrib | Message: Trying to get value of attribute from configfile with arguments: path=[network/myhostname], attrib_name=[val], filename=[sys.xml], filepath=[../settings/], debug=[1]!
+29/11/2015 05:33:02 | DEBUG: File: configparser.py | Function: getattrib | Message: ElementTree parsed filename=[../settings/sys.xml]!
+29/11/2015 05:33:02 | DEBUG: File: configparser.py | Function: getattrib | Message: ElementTree got tree-root!
+29/11/2015 05:33:02 | DEBUG: File: configparser.py | Function: getattrib | Message: Found attrib=[val]! Returning value [Azurite.Raspberry]!
+29/11/2015 05:33:02 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Got hostname! [Azurite.Raspberry]], debug=[1]!
+29/11/2015 05:33:02 | INFO: File: run.py | Message: Got hostname! [Azurite.Raspberry]
+29/11/2015 05:33:02 | INFO: File: configparser.py | Function: getattrib | Message: Trying to get value of attribute from configfile with arguments: path=[network/ips/myhost], attrib_name=[val], filename=[sys.xml], filepath=[../settings/], debug=[1]!
+29/11/2015 05:33:02 | DEBUG: File: configparser.py | Function: getattrib | Message: ElementTree parsed filename=[../settings/sys.xml]!
+29/11/2015 05:33:02 | DEBUG: File: configparser.py | Function: getattrib | Message: ElementTree got tree-root!
+29/11/2015 05:33:02 | DEBUG: File: configparser.py | Function: getattrib | Message: Found attrib=[val]! Returning value [172.16.16.11]!
+29/11/2015 05:33:02 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Got myip! [172.16.16.11]], debug=[1]!
+29/11/2015 05:33:02 | INFO: File: run.py | Message: Got myip! [172.16.16.11]
+29/11/2015 05:33:02 | INFO: File: configparser.py | Function: getelementlist | Message: Trying to get list of elements from configfile with arguments: path=[network/ports/port], filename=[sys.xml], filepath=[../settings/], debug=[1]!
+29/11/2015 05:33:02 | DEBUG: File: configparser.py | Function: getelementlist | Message: ElementTree parsed filename=[../settings/sys.xml]!
+29/11/2015 05:33:02 | DEBUG: File: configparser.py | Function: getelementlist | Message: ElementTree got tree-root!
+29/11/2015 05:33:02 | DEBUG: File: configparser.py | Function: getelementlist | Message: Created elems list!
+29/11/2015 05:33:02 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Got ports!], debug=[1]!
+29/11/2015 05:33:02 | INFO: File: run.py | Message: Got ports!
+29/11/2015 05:33:02 | INFO: File: configparser.py | Function: getelementlist | Message: Trying to get list of elements from configfile with arguments: path=[trustedhosts/host], filename=[sys.xml], filepath=[../settings/], debug=[1]!
+29/11/2015 05:33:02 | DEBUG: File: configparser.py | Function: getelementlist | Message: ElementTree parsed filename=[../settings/sys.xml]!
+29/11/2015 05:33:02 | DEBUG: File: configparser.py | Function: getelementlist | Message: ElementTree got tree-root!
+29/11/2015 05:33:02 | DEBUG: File: configparser.py | Function: getelementlist | Message: Created elems list!
+29/11/2015 05:33:02 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Got Trustedhosts!], debug=[1]!
+29/11/2015 05:33:02 | INFO: File: run.py | Message: Got Trustedhosts!
+29/11/2015 05:33:02 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[], message=[Getting socket-networking port from ports !], debug=[1]!
+29/11/2015 05:33:02 | INFO: File: run.py | Message: Getting socket-networking port from ports !
+29/11/2015 05:33:02 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[ok], message=[Got socket-networking port! [44557]], debug=[1]!
+29/11/2015 05:33:02 | INFO: File: run.py | Message: Got socket-networking port! [44557]
+29/11/2015 05:33:02 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[], message=[Doing some class creation!], debug=[1]!
+29/11/2015 05:33:02 | INFO: Doing some class creation!
+29/11/2015 05:33:02 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[], message=[Starting socket server with ip and port! [172.16.16.11] & [44557]], debug=[1]!
+29/11/2015 05:33:02 | INFO: File: run.py | Message: Starting socket server with ip and port! [172.16.16.11] & [44557]
+29/11/2015 05:33:02 | INFO: File: output.py | Function: statePrint | Message: Trying to use statePrint with arguments: state=[error], message=[Some error while starting socket server!], debug=[1]!
+29/11/2015 05:33:02 | ERROR: File: run.py | Message: Some error while starting socket server!
