@@ -120,6 +120,8 @@ class EchoServer(asyncore.dispatcher):
         print "Created socket"
         self.set_reuse_addr()
         print "set_reuse_addr"
+        print "Host: "+host
+        print "Port: "+port
         self.bind((host, port))
         print "bound socket"
         self.listen(1)
