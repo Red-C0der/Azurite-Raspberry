@@ -120,7 +120,7 @@ class EchoServer(asyncore.dispatcher):
         self.create_socket(socket.AF_INET, socket.SOCK_STREAM)
         logger.write("i", "Created Socket Object!", lloc=lloc)
         self.set_reuse_addr()
-        self.bind((str(myip), int(socketport)))
+        self.bind((myip, int(socketport)))
         logger.write("i", "Bound socket to ip ["+str(myip)+"] port ["+str(socketport)+"]!", lloc=lloc)
         maxconnection = 1
         self.listen(maxconnection)
