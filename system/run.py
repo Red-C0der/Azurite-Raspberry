@@ -132,14 +132,16 @@ class EchoServer(asyncore.dispatcher):
             pass
         else:
             sock, addr = pair
-            for host in trustedhosts:
-                if host["ip"] == addr:
-                    if int(host["level"]) > 6:
-                        output.statePrint("info", "Received verified incoming connection from [%s]!" % repr(addr), debug=debug)
-                        logger.write("i", "Received verified incoming connection from [%s]!" % repr(addr), lloc=lloc)
-                    elif int(host["level"]) < 6:
-                        output.statePrint("warning", "Received unverified incoming connection from [%s]!" % repr(addr), debug=debug)
-                        logger.write("w", "Received unverified incoming connection from [%s]!" % repr(addr), lloc=lloc)
+            output.statePrint("info", "Received verified incoming connection from ["+str(addr+"]!", debug=debug)
+            logger.write("i", "Received verified incoming connection from ["+str(addr)+"]!", lloc=lloc)
+            #for host in trustedhosts:
+            #    if host["ip"] == addr:
+            #        if int(host["level"]) > 6:
+            #            output.statePrint("info", "Received verified incoming connection from [%s]!" % repr(addr), debug=debug)
+            #            logger.write("i", "Received verified incoming connection from [%s]!" % repr(addr), lloc=lloc)
+            #        elif int(host["level"]) < 6:
+            #            output.statePrint("warning", "Received unverified incoming connection from [%s]!" % repr(addr), debug=debug)
+            #            logger.write("w", "Received unverified incoming connection from [%s]!" % repr(addr), lloc=lloc)
             handler = EchoHandler(sock)
 
 
