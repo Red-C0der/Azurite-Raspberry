@@ -114,17 +114,17 @@ class EchoHandler(asyncore.dispatcher_with_send):
 
 class EchoServer(asyncore.dispatcher):
 
-    def __init__(self, host, port):
+    def __init__(self):
         lloc = "File: run.py | Class: EchoServer | Function: __init__ | Message: "
         asyncore.dispatcher.__init__(self)
         self.create_socket(socket.AF_INET, socket.SOCK_STREAM)
         logger.write("i", "Created Socket Object!", lloc=lloc)
         self.set_reuse_addr()
-        self.bind((myip, int(socketport)))
+        self.bind((str(myip), int(socketport)))
         logger.write("i", "Bound socket to ip ["+str(myip)+"] port ["+str(socketport)+"]!", lloc=lloc)
-        maxconnection = 1
-        self.listen(maxconnection)
-        logger.write("i", "Socket is now listening for ["+str(maxconnection)+"] connections!", lloc=lloc)
+        maxconnections = 1
+        self.listen(maxconnections)
+        logger.write("i", "Socket is now listening for ["+str(maxconnections)+"] connections!", lloc=lloc)
 
     def handle_accept(self):
         pair = self.accept()
