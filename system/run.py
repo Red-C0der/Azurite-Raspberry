@@ -120,9 +120,9 @@ class EchoServer(asyncore.dispatcher):
         print "Created socket"
         self.set_reuse_addr()
         print "set_reuse_addr"
-        print "Host: "+myip
-        print "Port: "+socketport
-        self.bind((myip, socketport))
+        print "Host: "+str(myip)
+        print "Port: "+str(socketport)
+        self.bind((str(myip), int(socketport)))
         print "bound socket"
         self.listen(1)
         print "listening"
