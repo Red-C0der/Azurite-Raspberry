@@ -117,9 +117,13 @@ class EchoServer(asyncore.dispatcher):
     def __init__(self, host, port):
         asyncore.dispatcher.__init__(self)
         self.create_socket(socket.AF_INET, socket.SOCK_STREAM)
+        print "Created socket"
         self.set_reuse_addr()
+        print "set_reuse_addr"
         self.bind((host, port))
+        print "bound socket"
         self.listen(1)
+        print "listening"
 
     def handle_accept(self):
         pair = self.accept()
