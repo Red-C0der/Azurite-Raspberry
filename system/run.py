@@ -115,11 +115,16 @@ class EchoHandler(asyncore.dispatcher_with_send):
 class EchoServer(asyncore.dispatcher):
 
     def __init__(self, host, port):
+        lloc = "File: run.py | Class: EchoServer | Function: __init__ | Message: "
         asyncore.dispatcher.__init__(self)
         self.create_socket(socket.AF_INET, socket.SOCK_STREAM)
+        logger.write("i", "Created Socket Object!", lloc=lloc)
         self.set_reuse_addr()
         self.bind((str(myip), int(socketport)))
-        self.listen(1)
+        logger.write("i", "Bound socket to ip ["+str(myip)+"] port ["+str(socketport)+"]!", lloc=lloc)
+        maxconnection = 1
+        self.listen(maxconnection)
+        logger.write("i", "Socket is now listening for ["+str(maxconnection)+"] connections!", lloc=lloc)
 
     def handle_accept(self):
         pair = self.accept()
@@ -151,9 +156,11 @@ except:
     logger.write("e", "Some error while starting socket server!", lloc=lloc)
     sys.exit(0)
 
-
+i = 0
 while True:
     print "RUNNING LELELELE"
+    print i
+    i = i + 1
     time.sleep(0.5)
     #i = raw_input("root$ ")
     #print "Input: " + i
